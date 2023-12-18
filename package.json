@@ -1,5 +1,5 @@
 {
-  "name": "@capacitor-community/native-audio",
+  "name": "@leobenini/native-audio",
   "version": "5.0.1",
   "description": "A native plugin for native audio engine",
   "main": "dist/plugin.js",
@@ -37,7 +37,7 @@
     "prepublishOnly": "npm run build",
     "prepare": "husky install"
   },
-  "author": "bazuka5801 <bazuka5801@mail.ru> & Priyank Patel <priyank.patel@stackspace.ca>",
+  "author": "forked by Leonardo Benini",
   "license": "MIT",
   "dependencies": {},
   "devDependencies": {
@@ -81,10 +81,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/capacitor-community/native-audio"
+    "url": "git+https://github.com/leobenini/native-audio.git"
   },
   "bugs": {
-    "url": "https://github.com/capacitor-community/native-audio/issues"
+    "url": "https://github.com/leobenini/native-audio/issues"
   },
   "publishConfig": {
     "access": "public"
