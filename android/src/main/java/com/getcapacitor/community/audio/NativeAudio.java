@@ -55,7 +55,8 @@ public class NativeAudio extends Plugin implements AudioManager.OnAudioFocusChan
 
         this.audioManager = (AudioManager) getBridge().getActivity().getSystemService(Context.AUDIO_SERVICE);
         if (this.audioManager != null) {
-            this.audioManager.requestAudioFocus(this, AudioManager.STREAM_MUSIC, AudioManager.AUDIOFOCUS_GAIN);
+            //Warning: this stops the background audio
+            //this.audioManager.requestAudioFocus(this, AudioManager.STREAM_MUSIC, AudioManager.AUDIOFOCUS_GAIN);
         }
     }
 
